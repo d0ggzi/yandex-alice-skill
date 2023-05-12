@@ -1,10 +1,11 @@
 # Навык "Без допсы"
 ## Персональный помощник в сдаче экзаменов
 
-Хакатон от ИТМО и Яндекса - 2023 год
+Хакатон от ИТМО и Яндекса - 2023 год 
+
 Задача: создать навык для голосового помощника Алисы в помощи студентам ИТМО (и не только)
 
-Для начала в Miro был прописан будующий функционал навыка, текст сообщений и путь пользователя. [Посмотреть](https://miro.com/app/board/uXjVMfiJVXc=/?share_link_id=962279071144)
+Для начала в Miro был прописан будущий функционал навыка, текст сообщений и путь пользователя. [Посмотреть](https://miro.com/app/board/uXjVMfiJVXc=/?share_link_id=962279071144)
 
 Далее - разработка навыка в yandex.cloud. Добавление интентов для обработки запроса пользователя и парсинг. Конспекты предварительно спарсены с wiki.itmo, как и расписание экзаменов групп и реальные билеты по различным предметам. В свою очередь расписание преподавателя парсится с сайта ИТМО в live-режиме. Для подготовки ответа используется PostgreSQL, так как запрос с парсингом не всегда успевает обработаться (в навыках установлено ограничение в 3 секунды для ответа на запрос).
 
@@ -23,8 +24,7 @@
 -----------------
 
 ## Скриншоты:
-![Screenshot_2023_05_12_11_14_21_26_9e2bd530339e0e48020bd5cbcfc4854b](https://github.com/d0ggzi/yandex-alice-skill/assets/43131496/169e8531-6993-4326-82a8-bbccba02a809)
-![Screenshot_2023_05_12_11_15_19_66_9e2bd530339e0e48020bd5cbcfc4854b](https://github.com/d0ggzi/yandex-alice-skill/assets/43131496/b1d1a49a-e513-4240-a28d-3ed1cae67a21)
- ![Screenshot_2023_05_12_11_15_42_93_9e2bd530339e0e48020bd5cbcfc4854b](https://github.com/d0ggzi/yandex-alice-skill/assets/43131496/a579d647-b82e-41ff-a3a5-5199f5bf8234)
-![Screenshot_2023_05_12_11_15_46_29_9e2bd530339e0e48020bd5cbcfc4854b](https://github.com/d0ggzi/yandex-alice-skill/assets/43131496/c41e49f7-2b3f-4ffe-9f67-ba70397d84a2)
-![Screenshot_2023_05_12_11_16_25_38_9e2bd530339e0e48020bd5cbcfc4854b](https://github.com/d0ggzi/yandex-alice-skill/assets/43131496/29795952-c913-4905-9a83-865f62cecf75)
+<img src="https://github.com/d0ggzi/yandex-alice-skill/assets/43131496/169e8531-6993-4326-82a8-bbccba02a809" height = 500/>
+<img src="https://github.com/d0ggzi/yandex-alice-skill/assets/43131496/b1d1a49a-e513-4240-a28d-3ed1cae67a21" height = 500/>
+<img src="https://github.com/d0ggzi/yandex-alice-skill/assets/43131496/c41e49f7-2b3f-4ffe-9f67-ba70397d84a2" height = 500/>
+<img src="https://github.com/d0ggzi/yandex-alice-skill/assets/43131496/29795952-c913-4905-9a83-865f62cecf75" height = 500/>
